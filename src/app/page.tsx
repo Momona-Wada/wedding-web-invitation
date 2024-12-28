@@ -1,3 +1,4 @@
+import { Message } from "@/components/Message";
 import { TopPhoto } from "@/components/TopPhoto";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
     
       <div className="relative">
         <TopPhoto />
+        <Message />
       </div>
     </div>
     </>
