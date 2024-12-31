@@ -12,7 +12,7 @@ type HostProps = {
 export const Host = ({image, host, nameJapanese, nameEnglish, message }: HostProps) => { 
     return (
         <>
-        <div className="relative px-10 flex items-start space-x-8">
+        <div className="relative px-10 flex items-center space-x-8">
             <div className="relative h-full">
                 <Image 
                     src={`/images/hina_takuto/${image}.jpg`}
