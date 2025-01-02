@@ -1,3 +1,4 @@
+import { CountDown } from "@/components/CountDown";
 import { Host } from "@/components/Host";
 import { Message } from "@/components/Message";
 import { SectionWrapper } from "@/components/SectionWrapper";
@@ -28,10 +29,12 @@ export default function Home() {
               host="Bride"
               nameJapanese="和田ひなの"
               nameEnglish="Wada Hinano"
-              message="庭で芋とさつまいもを育てるのが夢（🍅🍅🍅最近ミニトマト枯らしました🍅🍅🍅）"
+              message="庭で芋とさつまいもを育てるのが夢（🍅最近ミニトマト枯らしました🍅）"
             />
           </div>
           </SectionWrapper>
+          <CountDown />
+
       </div>
     </div>
     </>
