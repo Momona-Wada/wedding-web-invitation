@@ -1,5 +1,4 @@
-import { Parisienne } from "next/font/google"
-import { Inria_Serif } from "next/font/google"
+import { Parisienne, Inria_Serif } from "next/font/google"
 
 export const parisienne = Parisienne({
     subsets: ['latin'],
