@@ -1,4 +1,5 @@
 import { CountDown } from "@/components/CountDown";
+import { EventDetail } from "@/components/EventDetail";
 import { Host } from "@/components/Host";
 import { Message } from "@/components/Message";
 import { SectionWrapper } from "@/components/SectionWrapper";
@@ -34,6 +35,8 @@ export default function Home() {
           </div>
           </SectionWrapper>
           <CountDown />
+
+          <EventDetail />
 
       </div>
     </div>
