@@ -9,10 +9,13 @@ type SectionWrapperProps = {
 export const SectionWrapper = ({background, title, children}: SectionWrapperProps) => {
     return (
         <>
-        <div className="relative h-[600px]">
+        <div className="relative min-h-screen]">
             <div 
                 className="absolute inset-0 bg-cover"
-                style={{backgroundImage: `url(/images/backgrounds/${background}.jpg)` }}
+                style={{
+                    backgroundImage: `url(/images/backgrounds/${background}.jpg)`,
+                    opacity: 0.8
+                }}
             >
             </div>
 
